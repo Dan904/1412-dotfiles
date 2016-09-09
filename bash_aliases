@@ -55,7 +55,7 @@ alias 314d='ssh pi@192.168.63.204'
 alias c64='ssh daniel@comadore64'
 
 # push to master
-alias gitit="!git push -u origin master"
+alias gitit="git push -u origin master"
 
 
 
