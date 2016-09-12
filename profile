@@ -24,9 +24,14 @@ fi
 
 export PS1="\[\033[38;5;3m\][\W]\[$(tput sgr0)\]\[\033[38;5;2m\]\\$\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
 
+
+# Lanch tmux when you ssh in. (disabled)
+
 ##if command -v tmux>/dev/null; then
 #      [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && exec tmux
 #  fi
+# 
+# Display MOTD when you tmux (Disabled)
 #
 #declare TMUX
 #MOTD="/etc/motd"
