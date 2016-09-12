@@ -28,3 +28,5 @@
 
 [alias]
         graph = log --oneline --decorate --branches --remotes --tags --graph --all
+[rerere]
+	enabled = true
