@@ -1,6 +1,7 @@
 [user]
 	name = Dan904
 	email = daniel_linge@yahoo.com
+	signingkey = 5ABA5C22
 [credential]
 	helper = cache --timeout=3600
 [core]
