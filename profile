@@ -22,6 +22,7 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 
+# Prompt [~] $ (yellow)
 export PS1="\[\033[38;5;3m\][\W]\[$(tput sgr0)\]\[\033[38;5;2m\]\\$\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
 
 
