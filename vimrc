@@ -215,6 +215,12 @@ let python_highlight_all=1
 nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<cr>
 nnoremap <buffer> <F10> :exec '!python3' shellescape(@%, 1)<cr>
 
+" fountain
+au BufRead,BufNewFile *.fountain set filetype=fountain
+au BufRead,BufNewFile *.fountain set binary
+au BufRead,BufNewFile *.fountain set noeol
+au BufRead *.fountain %s/^Draft date: .*$/\=strftime("Draft date: %m\/%d\/%Y")/
+
 " Colors
 "let g:zenburn_high_Contrast=1
 "let g:zenburn_alternate_Include = 1
