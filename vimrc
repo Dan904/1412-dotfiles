@@ -178,7 +178,8 @@ Plugin 'vim-airline/vim-airline-themes'
 "Plugin 'christoomey/vim-tmux-navigator'
 Bundle 'edkolev/tmuxline.vim'
 Plugin 'tpope/vim-fugitive'
-
+"Plugin 'Valloric/YouCompleteMe'
+Plugin 'pearofducks/ansible-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

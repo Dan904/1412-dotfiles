@@ -51,8 +51,8 @@ alias 314d='ssh pi@192.168.63.204'
 #314-Echo
 #314-Foxtrot
 
-#Comadore64
-alias c64='ssh daniel@comadore64'
+#Commodore64
+alias c64='ssh daniel@commodore64'
 
 # push to master
 alias gitit="git push -u origin master"
