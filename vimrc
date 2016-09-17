@@ -222,6 +222,9 @@ au BufRead,BufNewFile *.fountain set binary
 au BufRead,BufNewFile *.fountain set noeol
 au BufRead *.fountain %s/^Draft date: .*$/\=strftime("Draft date: %m\/%d\/%Y")/
 
+" ansible
+au BufNewFile,BufRead *.yaml,*.yml set filetype=ansible
+
 " Colors
 "let g:zenburn_high_Contrast=1
 "let g:zenburn_alternate_Include = 1
