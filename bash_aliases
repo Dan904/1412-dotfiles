@@ -58,6 +58,9 @@ alias c64='ssh daniel@commodore64'
 alias gitit="git push -u origin master"
 
 
+# Tmux attach 
+alias 0='tmux a -t 0'
+alias 1='tmux a -t 1'
 
 # DS_Store delete
 alias ds='find . -name '.DS_Store' -type f -delete'
