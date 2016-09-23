@@ -208,6 +208,8 @@ let g:syntastic_check_on_wq = 0
  au         BufNewFile *.py,*.pyw set fileformat=unix
  au BufRead,BufNewFile *.py,*.pyw let b:comment_leader = '#'
 
+autocmd BufNewFile *.py 0put =\"#!/usr/bin/env python3\<nl>\"|$
+
 highlight BadWhitespace ctermbg=red guibg=red
 
     
