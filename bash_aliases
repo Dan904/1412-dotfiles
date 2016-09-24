@@ -68,6 +68,9 @@ alias ds='find . -name '.DS_Store' -type f -delete'
 # reload .bashrc and profile dot files
 alias reload='source ~/.bashrc'
 
+# motd
+alias motd='cat /etc/motd'
+
 ##Scripts
 # 
 #Update (Preformed Daily)
